@@ -67,7 +67,28 @@ FIGURE -03
 
 
 PROGRAM 
- 
+// C++ code
+//
+int ledpin=3;
+int pushbtn=2;
+int val=0;
+void setup()
+{
+  pinMode(ledpin,OUTPUT);
+  pinMode(pushbtn,INPUT);
+}
+
+void loop()
+{
+  val=digitalRead(pushbtn);
+  if(val==0)
+  {
+    digitalWrite(ledpin,LOW);
+    
+  }
+  else
+    digitalWrite(ledpin,HIGH);
+}
  
  
  
