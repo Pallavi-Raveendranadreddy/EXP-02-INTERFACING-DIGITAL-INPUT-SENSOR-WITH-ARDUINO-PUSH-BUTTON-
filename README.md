@@ -67,6 +67,8 @@ FIGURE -03
 ```
 
 PROGRAM 
+
+
 // C++ code
 //
 int ledpin=3;
@@ -99,4 +101,5 @@ void loop()
 Output of the simulation :
 
 ![My image](https://github.com/Pallavi-Raveendranadreddy/EXP-02-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/blob/b371d44fb7666a94f15100bc79ee27bfde6bb5aa/R1.PNG)
-
+### RESULT:
+Thus the simulation output is completed in tinker cad successfully.
